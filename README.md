@@ -1,4 +1,4 @@
-> **unifiedKey Suite Overview**
+# **unifiedKey Suite Overview**
 
 **scriptKey (compatible with Scratch & TurboWarp)**
 
@@ -20,9 +20,9 @@ tokenKey is derived from activeKey, which will allow for what we classify as "ha
 The entire key itself is also encoded a number of times, making it very hard, and most importantly, computationally expensive to reverse the encrypted key itself, not even encrypting the main key, which is also encoded a number of times. tokenKey also uses a much more accurate timing algorithm compared to activeKey and scriptKey, which allows the key to be deactivated as soon as 2.5 minutes is over, unlike activeKey and scriptKey, which still have a ~1-30 second buffer after being initiated.
 tokenKey is the most secure type of unifedKey yet, and is mostly reserved for low-level system compute (i.e updating software, changing/running code, etc.) or high-risk computes (handling of sensitive data, VVID on scriptOS, etc.)
 
-> **unifiedKey Suite Security Statistics**
+# **unifiedKey Suite Security Statistics** 
 Note: all of these calculations are an absolute minimum. The actual probability is most likely astronomically lower than what is listed here.
-
+# 
 **scriptKey**
 
 Even though scriptKey is still relatively insecure, the approximate chance of a brute force and successfully decoded is ~1 in 11^50 or an approximate 0....9076% ("..." represents 51 zeros between the decimal point and the first non-zero digit) chance of successful a brute force.
